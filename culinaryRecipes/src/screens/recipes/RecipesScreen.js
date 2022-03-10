@@ -1,5 +1,5 @@
 import {View, Text, FlatList} from 'react-native';
-import React from 'react';
+import React, {useEffect} from 'react';
 // import recipes from '../../json/recipes.json';
 import Recipe from '../../components/card/Recipe';
 import {styles} from './styles';
